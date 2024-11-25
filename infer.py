@@ -70,7 +70,7 @@ def infer(model, image_path, DEVICE, output_path="output_segmented_image.png"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Inference script for image segmentation.")
     parser.add_argument('--image_path', type=str, required=True, help="Path to the input image")
-    parser.add_argument('--checkpoint', type=str, default="./checkpoints/model.pth", help="Path to the model checkpoint")
+    parser.add_argument('--checkpoint', type=str, default="/model/unet-model.pth", help="Path to the model checkpoint")
     args = parser.parse_args()  
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = load_model(args.checkpoint, DEVICE)
