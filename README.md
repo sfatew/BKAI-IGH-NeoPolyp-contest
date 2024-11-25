@@ -21,4 +21,6 @@ The model checkpoints `unet-model.pth` are stored in the folder model
 
 You can run the following command to test on the image at your working directory
 
-`python3 infer.py --image_path path_to_image/image.jpeg --checkpoint checkpoints/model.pth`
+```
+python3 infer.py --image_path path_to_image/image.jpeg --checkpoint checkpoints/model.pth
+```
