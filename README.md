@@ -6,10 +6,10 @@ To use this model for inference, run the following script:
 # Enviroment setup
 Clone repository
 
-git clone <https://github.com/sfatew/BKAI-IGH-NeoPolyp-contest.git>
-cd <BKAI-IGH_NeoPolyp>
+ git clone <https://github.com/sfatew/BKAI-IGH-NeoPolyp-contest.git>
+ cd <BKAI-IGH_NeoPolyp>
 
-#Model Checkpoints
+# Model Checkpoints
 
 The model checkpoints unet-model.pth are stored in the folder model 
 
