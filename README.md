@@ -13,7 +13,7 @@ cd <BKAI-IGH_NeoPolyp>
 
 # Model Checkpoints
 
-The model checkpoints `unet-model.pth` are stored in the drive 
+The model checkpoints `unet-model.pth` are stored in the drive <https://drive.google.com/file/d/1bA0gK9HrbwHS3OeyuJBKdIHIxe00LAPo/view?usp=drive_link>
 
 `unet-model.pth` is the model with the lowest valiadation loss during training.
 
