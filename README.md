@@ -19,4 +19,4 @@ unet-model.pth is the model with the lowest valiadation loss during training.
 
 You can run the following command to test on the image at your working directory
 
-python3 infer.py --image_path path_to_image/image.jpeg --checkpoint checkpoints/model.pth
+`python3 infer.py --image_path path_to_image/image.jpeg --checkpoint checkpoints/model.pth`
