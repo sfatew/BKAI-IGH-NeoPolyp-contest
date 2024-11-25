@@ -7,7 +7,7 @@ To use this model for inference, run the following script:
 Clone repository
 
  `git clone <https://github.com/sfatew/BKAI-IGH-NeoPolyp-contest.git>
- cd <BKAI-IGH_NeoPolyp>
+ cd <BKAI-IGH_NeoPolyp>`
 
 # Model Checkpoints
 
